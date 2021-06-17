@@ -1,0 +1,14 @@
+.widget_blank-buttons {
+	display: flex;
+	justify-content: space-around;
+}
+.personal_widget .widget_content.widget_blank-buttons {
+	padding: 0;
+}
+.personal_widget .ladda-button {
+	flex-grow: 1;
+}
+
+.personal_widget .ladda-button-left {
+	margin-right: 0.5rem;
+}

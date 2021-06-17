@@ -1,0 +1,23 @@
+.create_account-captcha {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.create_account-captcha .captha_text {
+    margin: 0 1rem;
+    white-space: nowrap;
+}
+
+.create_account-captcha .captcha_reload_icon {
+    color: #999;
+    cursor: pointer;
+}
+
+.create_account-captcha .captcha_reload_icon i {
+    transition: all 0.2s ease-in-out;
+}
+
+.create_account-captcha .captcha_reload_icon:hover i {
+    color: #000;
+}

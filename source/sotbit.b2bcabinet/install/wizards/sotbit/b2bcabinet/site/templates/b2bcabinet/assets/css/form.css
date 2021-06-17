@@ -1,0 +1,65 @@
+/* registration */
+
+.chouse-company {
+	padding-bottom: 15px;
+}
+
+/* ===================== FILE INPUT ===================== */
+.file-area {
+	width: 100%;
+	position: relative;
+	color: #455a64;
+}
+.file-area input[type=file] {
+	position: absolute;
+	width: 100%;
+	/*height: 100%;*/
+	/*top: 0;*/
+	height: 75px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0;
+	cursor: pointer;
+	border-radius: .1875rem;
+}
+.file-area .file-dummy {
+	width: 100%;
+	padding: 30px;
+	background: rgba(69, 90, 100, 0.2);
+	border: 2px dashed rgba(69,90,100,0.2);
+	text-align: center;
+	transition: background 0.3s ease-in-out;
+	border-radius: 15px;
+}
+.file-area .file-dummy .success {
+	display: none;
+}
+.file-area:hover .file-dummy {
+	background: rgba(69, 90, 100, 0.1);
+}
+.file-area input[type=file]:focus + .file-dummy {
+	outline: 2px solid rgba(0, 0, 0, 0.5);
+	outline: -webkit-focus-ring-color auto 5px;
+}
+.file-area input[type=file]:valid + .file-dummy {
+	border-color: rgba(69, 90, 100, 0.4);
+	background-color: rgba(69, 90, 100, 0.3);
+}
+.file-area input[type=file]:valid + .file-dummy .success {
+	display: inline-block;
+}
+.file-area input[type=file]:valid + .file-dummy .default {
+	display: none;
+}
+
+/* end registration */
+
+
+/* for company*/
+
+.card-bitrix-cabinet {
+	height: 100%;
+}
+
+/* end for company */

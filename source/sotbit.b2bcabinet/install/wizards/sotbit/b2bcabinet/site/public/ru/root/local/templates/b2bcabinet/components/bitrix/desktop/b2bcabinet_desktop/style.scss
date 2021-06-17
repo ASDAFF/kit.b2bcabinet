@@ -1,0 +1,1094 @@
+body.body-popup {
+  margin: 10px;
+}
+
+.gdsettings > i {
+  font-size: 12px;
+  top: 0;
+}
+
+body .gdoptions {
+  background-color: #fff;
+  border-bottom: 1px solid #ededed;
+  padding: 0.3rem 1.25rem;
+}
+
+body .gdsettrow {
+  margin: 0.75rem 0;
+}
+
+div.empty {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+table.data-table-gadget {
+  width: 100%;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+.gdparent {
+  border: 1px solid #becfd8;
+  position: relative;
+  background-color: white;
+}
+
+.gdcorn {
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  width: 4px;
+  height: 4px;
+  background-image: url(images/gadget.gif);
+  overflow: hidden;
+}
+
+.gdbcorn {
+  position: absolute;
+  left: -1px;
+  top: -3px;
+  width: 4px;
+  height: 4px;
+  background-image: url(images/gadget.gif);
+  background-position: 0px -4px;
+  overflow: hidden;
+}
+
+.gdheader {
+  background-color: #d8e3e8;
+  padding: 10px;
+  margin: 1px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.gdcontent {
+  padding: 10px;
+  zoom: 1;
+}
+
+.card.personal_widget .widget_content a {
+  color: #000;
+}
+
+a.gdsettings {
+  background-position: -4px 0px;
+}
+
+.gdhided a.gdhide {
+  background-position: -61px 0px;
+}
+
+
+a.gdsettings:hover {
+  background-position: -4px -19px;
+}
+
+.gdhided a.gdhide:hover {
+  background-position: -61px -19px;
+}
+
+.gdnoparams {
+  display: none;
+}
+
+.gdhided .gdcontent {
+  display: none;
+}
+
+.gdoptions {
+  padding: 4px;
+  background-color: #E8E8E8;
+}
+
+.gdsettrow {
+  margin: 4px;
+}
+
+
+div.bx-gd-buttons {
+  margin-bottom: 30px;
+  padding-left: 3px;
+}
+
+div.bx-gd-button {
+  height: 21px;
+  float: left;
+}
+
+div.bx-gd-button span {
+  display: block;
+  float: left;
+  height: 21px;
+  cursor: pointer;
+}
+
+div.bx-gd-button span.bx-gd-text {
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 21px;
+  display: block;
+  text-decoration: none;
+}
+
+div.bx-gd-button span.bx-gd-l {
+  background: url(images/btn/btn_l.gif);
+  width: 2px;
+}
+
+div.bx-gd-button span.bx-gd-r {
+  background: url(images/btn/btn_r.gif);
+  width: 2px;
+}
+
+div.bx-gd-button span.bx-gd-c {
+  background: url(images/btn/btn_bg.gif);
+  padding: 0px 11px 0px 7px;
+  line-height: 20px;
+}
+
+div.bx-gd-add span.bx-gd-text {
+  background-image: url(images/btn/plus.gif);
+}
+
+div.bx-gd-clear span.bx-gd-text {
+  background-image: url(images/btn/del.gif);
+}
+
+div.bx-gd-setdef span.bx-gd-text {
+  background-image: url(images/btn/set.gif);
+}
+
+div.bx-gd-setdef, div.bx-gd-clear {
+  float: right;
+  padding-left: 10px;
+}
+
+div.bx-gd-button a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-size: 95%;
+}
+
+.bx-gadgets-drag {
+  position: absolute;
+  border: 1px solid #777777;
+  z-index: 10000;
+}
+
+
+@font-face {
+  font-family: "ProximaNova";
+  src: url("fonts/ProximaNova/ProximaNovaRegular.eot") format('eot'),
+  url("fonts/ProximaNova/ProximaNovaRegular.ttf") format('truetype'),
+  url("fonts/ProximaNova/ProximaNovaRegular.woff") format('woff'),
+  url("fonts/ProximaNova/ProximaNovaRegular.woff2") format('woff2'),
+  url("fonts/ProximaNova/ProximaNovaRegular.svg#ProximaNovaRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/****weather****/
+/*погода*/
+.sotbit-cabinet-gadget-weather .gdparent {
+  border: 1px solid #dadada;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.sotbit-cabinet-gadget-weather .gdcontent {
+  padding: 10px;
+  zoom: 1;
+  color: #9ca4b1;
+  font-size: 14px;
+  font-family: ProximaNova, Calibri;
+}
+
+.sotbit-cabinet-gadget-weather .gdhtmlareachlink {
+  color: #6f727c;
+  font-size: 15px;
+  font-family: ProximaNova, Calibri;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px dotted #6f727c;
+  line-height: 30px;
+}
+
+.sotbit-cabinet-gadget-weather .gdsettrow {
+  margin: 4px 9px 4px 12px;
+  color: #6f727c;
+  font-size: 15px;
+  font-family: ProximaNova, Calibri;
+}
+
+.sotbit-cabinet-gadget-weather .gdsettrow input[type='text'] {
+  color: #6f727c;
+  font-size: 15px;
+  font-family: ProximaNova, Calibri;
+  width: 100%;
+}
+
+.sotbit-cabinet-gadget-weather .gdsettrow input[type='text']:focus,
+.sotbit-cabinet-gadget-weather .gdsettrow input[type='text']:active {
+  outline: auto 2px;
+}
+
+.sotbit-cabinet-gadget-weather .gdsettrow select {
+  width: 100%;
+  padding: 5px 0px 5px 5px;
+  color: #b6b8be;
+  border: 1px solid #b6b8be;
+  background: #fff url('images/ic_key.png') no-repeat;
+  background-size: 15px;
+  background-position: right 10px center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.sotbit-cabinet-gadget-weather .gdsettrow select:focus,
+.sotbit-cabinet-gadget-weather .gdsettrow select:active {
+  outline: auto 2px;
+}
+
+.sotbit-cabinet-gadget-weather .gdsettrow input[type='button'] {
+  color: #6f727c;
+  font-size: 15px;
+  font-family: ProximaNova, Calibri;
+  font-weight: normal;
+}
+
+.sotbit-cabinet-gadget-weather .gdoptions {
+  padding: 4px;
+  background-color: transparent;
+}
+
+.sotbit-cabinet-gadget-weather .gdweather {
+  margin: 0 0 5px 0;
+  display: block;
+}
+
+.sotbit-cabinet-gadget-weather .gdwinfo span {
+  color: #33363b;
+}
+
+.sotbit-cabinet-gadget-weather .sw--country {
+  color: #052640;
+  padding: 0;
+  margin: 0 0 5px 0;
+}
+
+.sotbit-cabinet-gadget-weather .sw--temperature {
+  font-size: 32px;
+  color: #d44343;
+}
+
+/***cols***/
+
+.gadgetholder:before {
+  content: ' ';
+  display: table;
+}
+
+.gadgetholder:after {
+  content: ' ';
+  display: table;
+  clear: both;
+}
+
+.gadgetholder {
+  width: 100%;
+  padding-right: 5px;
+}
+
+.gd-page-column {
+  position: relative;
+  min-height: 1px;
+}
+
+@media (min-width: 768px) {
+  .gd-page-column {
+    float: left;
+    width: 33%;
+  }
+}
+
+@media (max-width: 768px) {
+  .gd-page-column {
+    width: 100%;
+  }
+}
+
+.gd-page-column {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/*widgets buttons*/
+.sotbit_cabinet {
+  position: relative;
+  margin-left: -4px;
+  padding-top: 40px;
+}
+
+.widget_button {
+  width: 32%;
+  padding: 17px;
+  box-sizing: border-box;
+  border: 1px solid #eeeeee;
+}
+
+.widget_button:hover {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.widgets_cabinet {
+  position: absolute;
+  z-index: 25;
+  top: 31px;
+  width: 100%;
+  height: auto;
+  padding: 28px;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  transition: visibility 0.3s, opacity 0.3s;
+}
+
+.show_widgets {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.3s, opacity 0.3s;
+}
+
+.body_widgets {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  z-index: 20;
+  background: #dbdbdb;
+}
+
+.stop-scrolling {
+  height: 100%;
+}
+
+/*widgets buttons*/
+/*widgets_popup*/
+.widget_buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.widgets_cabinet_title {
+  font-size: 16px;
+  font-family: ProximaNova, Calibri;
+  color: #04263f;
+  padding: 3px;
+}
+
+.widgets_cabinet_descr {
+  font-size: 13px;
+  font-family: ProximaNova, Calibri;
+  color: #6c727d;
+  padding: 3px;
+}
+
+.sotbit_cabinet .sotbit-cabinet-gadget-weather .gdcontent {
+  padding: 10px 15px;
+}
+
+.sotbit_cabinet .sotbit-cabinet-gadget-weather .gdcontent .t1 {
+  font-size: 32px;
+  color: #d44343;
+}
+
+.sotbit_cabinet .sotbit-cabinet-gadget-weather .gdwinfo {
+  font-size: 14px;
+}
+
+.sotbit_cabinet .sotbit-cabinet-gadget-weather .gdcontent > h3 {
+  font-family: ProximaNova, Calibri;
+  font-size: 18px;
+  color: #052640;
+  margin-bottom: 5px;
+}
+
+.sotbit_cabinet .sotbit-cabinet-gadget-weather .gdweather {
+  margin: 0 0 5px 0;
+  display: block;
+  font-size: 14px;
+}
+
+.sotbit_cabinet .sotbit-cabinet-gadget-weather .gdsettrow.TITLE_STD {
+  display: none;
+}
+
+.sotbit_cabinet .sotbit-cabinet-gadget-weather .gdsettrow.COUNTRY span,
+.sotbit_cabinet .sotbit-cabinet-gadget-weather .gdsettrow.CITY span {
+  display: none;
+}
+
+.sotbit_cabinet .sotbit-cabinet-gadget-weather .gdsettrow input[type='button'] {
+  color: #6f727c;
+  font-size: 15px;
+  font-family: ProximaNova, Calibri;
+  font-weight: normal;
+  border: 1px solid #6f727c;
+  background-color: transparent;
+  padding: 1px 6px;
+}
+
+.sotbit-cabinet-gadget-weather .gdsettrow.TITLE_STD {
+  display: none !important;
+}
+
+.sotbit-cabinet-gadget-weather .gdsettrow.COUNTRY span,
+.sotbit-cabinet-gadget-weather .gdsettrow.CITY span {
+  display: none !important;
+}
+
+.sotbit-cabinet-gadget-weather .gdsettrow input[type='button'] {
+  color: #6f727c !important;
+  font-size: 15px !important;
+  font-family: ProximaNova, Calibri !important;
+  font-weight: normal !important;
+  border: 1px solid #6f727c !important;
+  background-color: transparent !important;
+  padding: 1px 6px !important;
+}
+
+.sotbit-cabinet-gadget-weather .gdcontent > h3 {
+  font-family: ProximaNova, Calibri !important;
+  font-size: 18px !important;
+  color: #052640 !important;
+  margin-bottom: 5px !important;
+  font-weight: normal !important;
+}
+
+.sotbit-cabinet-gadget-weather .gdcontent .t1 {
+  font-size: 32px !important;
+  color: #d44343 !important;
+}
+
+.sotbit-cabinet-gadget-weather .gdweather {
+  margin: 0 0 5px 0 !important;
+  display: block !important;
+  font-size: 14px !important;
+}
+
+.sotbit-cabinet-gadget-weather .gdwinfo {
+  font-size: 14px !important;
+}
+
+.sotbit_cabinet .sotbit-cabinet-gadget a.gdsettings {
+  background-position: -4px -2px;
+}
+
+.sotbit_cabinet .sotbit-cabinet-gadget a.gdsettings:hover {
+  background-position: -4px -2px;
+}
+
+.sotbit_cabinet .sotbit-cabinet-gadget a.gdhide {
+  background-position: -23px -1px;
+}
+
+.sotbit_cabinet .sotbit-cabinet-gadget a.gdhide:hover {
+  background-position: -23px -1px;
+}
+
+.sotbit_cabinet .sotbit-cabinet-gadget.gdhided a.gdhide:hover {
+  background-position: -61px -1px;
+}
+
+.sotbit_cabinet .sotbit-cabinet-gadget.gdhided a.gdhide {
+  background-position: -61px -1px;
+}
+
+.sotbit_cabinet .sotbit-cabinet-gadget a.gdremove {
+  background-position: -43px -1px;
+}
+
+.sotbit_cabinet .sotbit-cabinet-gadget a.gdremove:hover {
+  background-position: -43px -1px;
+}
+
+.sotbit_cabinet .personal_left_wrap {
+  border-left: 1px solid #caccd0;
+  margin: 0 0 0 5px;
+}
+
+.sotbit_cabinet .widgets_cabinet {
+  top: 0;
+  z-index: 126;
+  margin-left: -10px;
+  width: calc(100% + 10px);
+}
+
+.sotbit_cabinet .sw--all_widgets .widget-bx-gd-buttons {
+  position: absolute;
+  right: -2px;
+  top: -35px;
+  z-index: 4;
+}
+
+.sotbit_cabinet .sw--all_widgets .widget-bx-gd-buttons .default-settings,
+.sotbit_cabinet .sw--all_widgets .widget-bx-gd-buttons .clear-settings,
+.sotbit_cabinet .sw--all_widgets .widget-bx-gd-buttons .add-settings {
+  color: #9ca4b1;
+  border: 1px solid #eeeeee;
+  padding: 7px 15px 8px 15px;
+  font-family: ProximaNova, Calibri;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.sotbit_cabinet .sw--all_widgets .widget-bx-gd-buttons .add-settings {
+  color: #000000;
+  background-color: #ffffff;
+  z-index: 126;
+  position: relative;
+}
+
+.sotbit_cabinet .widget_buttons {
+  justify-content: space-between;
+}
+
+.sotbit_cabinet .sw--all_widgets {
+  height: 10px;
+  position: relative;
+  margin: 0;
+}
+
+.sotbit-cabinet-gadget-weather .gdcontent .t5,
+.sotbit-cabinet-gadget-weather .gdcontent .t4,
+.sotbit-cabinet-gadget-weather .gdcontent .t3,
+.sotbit-cabinet-gadget-weather .gdcontent .t2,
+.sotbit-cabinet-gadget-weather .gdcontent .t1,
+.sotbit-cabinet-gadget-weather .gdcontent .t0,
+.sotbit-cabinet-gadget-weather .gdcontent .t-0,
+.sotbit-cabinet-gadget-weather .gdcontent .t-1,
+.sotbit-cabinet-gadget-weather .gdcontent .t-2,
+.sotbit-cabinet-gadget-weather .gdcontent .t-3,
+.sotbit-cabinet-gadget-weather .gdcontent .t-4,
+.sotbit-cabinet-gadget-weather .gdcontent .t-5 {
+  font-size: 32px;
+  color: #d44343;
+}
+
+.card.personal_widget {
+  margin-bottom: 0;
+}
+
+.button_link {
+  background: none;
+  border: none;
+  border-bottom: 1px dotted #000;
+  cursor: pointer;
+}
+
+.icon-gear::before {
+  font-size: 12px;
+}
+
+.list-icons-item.gdsettings.icon-pencil3:before {
+  font-size: .8125rem;
+}
+
+.widget_content.widget_links_btns.widget-payment_waiting-content {
+  padding: 0.75rem 0;
+}
+
+.widget_content.widget_links_btns a {
+  border-bottom: 1px dotted #000;
+}
+
+.widget_content .icon-arrow-right13.mr-2 {
+  float: right;
+}
+
+.widget_content .widget_order_header a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.widget_content .widget_order_header h6 {
+  margin-bottom: 0;
+  padding: 0;
+
+}
+
+.widget_content .widget_order_information {
+  padding: .7rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.widget_content .widget_order_content {
+  margin: 0.4rem 0;
+}
+
+.personal_widget .widget_button_wrapper .widget_button {
+  min-width: 170px;
+  height: 36px;
+  background: #3e495f;
+  color: #fff;
+}
+
+.widget_content.widget_links a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.personal_widget .widget_button_wrapper .widget_button:hover {
+  background: #2a3140;
+  color: #fff;
+}
+
+.personal_widget .widget_review_info {
+  margin-top: 0.5rem;
+}
+
+.personal_widget .widget_review_info .number_products {
+  color: #999;
+}
+
+.personal_widget .widget_review_info .price_total {
+  color: #999;
+}
+
+.widget_content.widget_links.orders {
+  padding-bottom: 0.75rem;
+}
+
+.widget_content.widget_links.orders .widget_button_wrapper {
+  margin: 0;
+}
+
+.widget_content.widget_links.orders .btn {
+  margin: 0;
+}
+
+.widget_content.widget_links.orders {
+  border-bottom: 1px solid #ededed;
+}
+
+.widget_button_wrapper {
+  margin-top: 0.75rem;
+}
+
+.widget_content.widget_links.personal_info .image_photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.widget_content.widget_links.personal_info .image_photo > img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.widget_content.widget_links.personal_info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.widget_content.widget_links.personal_info .image_photo {
+  flex: 0 0 30%;
+  text-align: center;
+  background-image: url("http://b2bcabinet.sotbit.com/local/gadgets/sotbit/profile/img/empty_avatar.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 70px;
+}
+
+.widget_content.widget_links.personal_info .image_photo i {
+  font-size: 4rem;
+}
+
+.widget_content.widget_links.personal_info .personal_information {
+  flex: 0 0 65%;
+  padding: 1rem 0;
+}
+
+.card.personal_widget .widget_content .form-group {
+  margin-bottom: 0.5rem;
+}
+
+.widget_weather-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.widget_weather-content > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.widget_weather-content .widget_weather-temp {
+  flex: 0 0 20%;
+  color: #d44343;
+  font-size: 2rem;
+}
+
+.widget_weather-content .widget_weather-icons {
+  flex: 0 0 20%;
+}
+
+.widget_weather-content .widget_weather-text {
+  flex: 0 0 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  color: #999;
+}
+
+.widget-private_invoices_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ededed;
+}
+
+.widget-private_invoices_header h4 {
+  margin-bottom: 0;
+}
+
+.widget-private_invoices-input_description {
+  margin-bottom: 0.5rem;
+}
+
+.widget-private_invoices-input .form-control {
+  max-width: 49%;
+}
+
+.widget_content.widget-private_invoices_content {
+  padding: 0.75rem 1rem 0 1rem;
+}
+
+.widget-private_invoices_icons {
+  padding: 0.5rem 0;
+}
+
+.widget_discount {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.widget_discount .widget_discount-img {
+  background: #3e495f;
+  border-radius: 100%;
+  padding: 1rem;
+}
+
+.btn.btn-light.widget_button {
+  width: auto;
+}
+
+.widget_content.widget_blank-buttons {
+  flex-wrap: wrap;
+}
+
+.gdparent .gdheader .list-icons .list-icons-item {
+  margin-right: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.widget_content.widget_blank-buttons .btn {
+  margin: 0.2rem;
+}
+
+.widget_discount .test_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.congestion_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.congestion_content .congestion_content-rate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 20%;
+  font-size: 2rem;
+  color: #E7AD01;
+}
+
+.congestion_content .congestion_content-text {
+  color: #999;
+}
+
+.gdcontent .personal_information .email, .phone {
+  color: #000;
+}
+
+
+.card.personal_widget .header-elements .list-icons-item {
+  color: #fff;
+}
+
+.personal_widget .widget_payment_waiting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 0.75rem;
+}
+
+.personal_widget .widget_payment_waiting h4 {
+  margin-bottom: 0;
+}
+
+.personal_widget .widget_payment_waiting h5 {
+  margin-bottom: 0;
+}
+
+.widget-payment_waiting-content {
+  border-bottom: 1px solid #ededed;
+}
+
+.widget-private_invoices-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.widget-private_invoices-input .widget_button_wrapper {
+  margin: 0;
+}
+
+.widget-organizations-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.widget-organizations-change_icons {
+  cursor: pointer;
+}
+
+.widget-pending .widget-pending-goods {
+  display: flex;
+  flex-direction: row;
+  margin: 13px 0 5px 0;
+  flex-wrap: wrap;
+  max-width: 340px;
+}
+
+.gdparent .gdcontent {
+  padding: 0.75rem 1.25rem;
+}
+
+.sotbit_cabinet .sotbit-cabinet-gadget-weather .gdparent .gdcontent {
+  padding: 0.75rem 1.25rem;
+}
+
+.widget_content.widget-private_invoices_header {
+  padding: 0.75rem 1.25rem;
+}
+
+.sotbit-cabinet-gadget-basket .gdparent.personal_widget {
+  background: none;
+}
+
+.sotbit-cabinet-gadget-basket .gdparent .gdcontent {
+  color: #000;
+}
+
+.gdcontent .block-cart-img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 5px;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.gdcontent .gdfavaddlink {
+  font-size: .8125rem;
+  margin: 0;
+}
+
+.gdparent .card-body {
+  padding: 0;
+}
+
+.widget-my_cart .widget-my_cart-products {
+  display: flex;
+  flex-direction: row;
+  margin: 13px 0 5px 0;
+  flex-wrap: wrap;
+  max-width: 340px;
+}
+
+.widget-my_cart .widget-my_cart-products .block-cart-img {
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 5px;
+  width: 45px;
+  height: 45px;
+}
+
+.gdcontent .gdsetcartinfo-img {
+  display: flex;
+}
+
+.widget-organizations-content .icon-pencil {
+  font-size: 13px;
+  margin-right: 0.4rem;
+}
+
+.index_widgets {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.widget-payment_waiting-content .payment_waiting_text {
+  color: #999;
+}
+
+.card.personal_widget a {
+  color: #000;
+}
+
+.card.personal_widget .card-header.header-elements-inline {
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 0.75rem;
+  padding-top: 0.75rem;
+  background: #3e495f;
+  color: #fff;
+}
+
+.widgets_cabinet.show_widgets {
+  display: none;
+}
+
+.body_widgets_main.body_widgets {
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.content .sotbit_cabinet .sw--all_widgets {
+  height: auto;
+  margin-bottom: 0.7rem;
+}
+
+.content .sotbit_cabinet .sw--all_widgets .widget-bx-gd-buttons {
+  position: static;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.widget-bx-gd-buttons .btn {
+  margin-left: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+.card.personal_widget .card-header.header-elements-inline {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.widgets_cabinet.show_widgets .widget_buttons {
+  display: none;
+}
+
+body .sotbit_cabinet .sotbit-cabinet-gadget a.list-icons-item {
+  background: none;
+  border: none;
+  color: #fff;
+}
+
+body .sotbit_cabinet .sotbit-cabinet-gadget a.list-icons-item:hover {
+  background: none;
+  border: none;
+}
+
+@media screen and (max-width: 1270px) {
+  .gadgetholder .gd-page-column {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+  .gadgetholder .gd-page-column {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .gadgetholder .gd-page-column {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .widget_content.widget_blank-buttons {
+    flex-direction: column;
+  }
+
+  .personal_widget .widget_content.widget_blank-buttons .ladda-button-left {
+    padding-right: 0;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .card.personal_widget {
+    min-width: 0;
+  }
+
+  .content {
+    padding: 0;
+  }
+
+  .content .sotbit_cabinet .sw--all_widgets {
+    padding-top: 1rem;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .btn.index_company-add_organization-button {
+    margin: 1rem;
+  }
+
+  .index_widgets {
+    flex-direction: column;
+  }
+
+  .widget_blank-buttons .btn {
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+  }
+}

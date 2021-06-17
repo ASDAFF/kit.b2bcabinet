@@ -1,0 +1,76 @@
+.blank_personal {
+
+  .form-check.form-check-switchery {
+    margin-left: 10px;
+  }
+
+  .blank_personal-title {
+    margin: 2rem 0 1.25rem 0;
+  }
+
+  .payment_method-icon {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    margin-right: 0.5rem;
+  }
+
+  .fix_payment .btn {
+    margin-bottom: 0.2rem;
+  }
+}
+
+
+.card-body.blank_invoices-payment_method {
+  max-width: 350px;
+  padding: 0;
+}
+
+.blank_invoices-amount {
+  max-width: 350px;
+}
+
+.text-left {
+
+  .blank_invoices-pay_button {
+    width: 170px;
+    color: #fff;
+    background: #3e495f;
+
+    &:hover {
+      color: #fff;
+      background-color: #2a3140;
+    }
+
+    &:active {
+      color: #fff;
+      background-color: #2a3140;
+    }
+  }
+}
+
+.nav-pills .nav-link.blank_personal-payment_method-button.active {
+  background-color: #3e495f;
+  border-color: #2a3140;
+}
+
+.blank_invoices_payment-pay_button {
+  width: 170px;
+  color: #fff;
+  background: #3e495f;
+
+  &:hover {
+    color: #fff;
+    background-color: #2a3140;
+  }
+
+  &:active {
+    color: #fff;
+    background-color: #2a3140;
+  }
+}
+
+
+.blank_personal_payment .blank_personal_payment_description > span {
+  padding-left: 0;
+}

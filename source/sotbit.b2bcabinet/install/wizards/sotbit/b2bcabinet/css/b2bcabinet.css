@@ -1,0 +1,129 @@
+.solution-inner-item input[name="__wiz_createSite"] {
+    float: left!important;
+}
+
+.solution-inner-item h4 {
+    padding-top: 2px!important;
+}
+
+.data-collection-wrapper
+{
+    display:flex;
+    justify-content:space-between;
+}
+
+.data-collection-left
+{
+    width:550px;
+}
+.data-collection-right
+{
+    border:1px solid #535b6b;
+    border-radius:3px;
+    width:410px;
+    margin-left:40px;
+    padding-bottom:20px;
+}
+
+.data-collection-left__top-text
+{
+    font-family:'Open Sans';
+    font-size:13px;
+    color:#7f848f;
+    margin-bottom:30px;
+}
+.data-collection-wrapper .wizard-input-title
+{
+    font-family:'Open Sans';
+    font-size:14px;
+    color:#535b6b;
+}
+
+.data-collection-left__bottom-text
+{
+    font-family:'Open Sans';
+    font-size:13px;
+    color:#7f848f;
+}
+
+.data-collection-wrapper .wizard-field
+{
+    width:calc(100% - 30px);
+}
+
+
+.data-collection-left__bottom-text a
+{
+    color:#000;
+    margin-top:20px;
+}
+
+.data-collection-right__avatar
+{
+    text-align:center;
+    margin-top:18px;
+    margin-bottom:18px;
+}
+
+.data-collection-right__personal-manager
+{
+    text-align:center;
+    font-family:'Open Sans';
+    font-size:13px;
+    color:#7f848f;
+    margin-bottom:5px;
+}
+
+.data-collection-right__personal-manager-name
+{
+    text-align:center;
+    color:#040000;
+    font-family:'Open Sans';
+    font-weight:bold;
+    font-size:16px;
+    margin-bottom:30px;
+}
+
+.data-collection-right__plusses li
+{
+    font-family:'Open Sans';
+    font-size:13px;
+    color:#535b6b;
+    margin-bottom:15px;
+    padding-left:25px;
+    background-image:url('../images/plus.png');
+    background-repeat: no-repeat;
+    list-style:none;
+    background-position:0 4px;
+}
+/*
+.instal-bg {
+    background: url('origami_wizard_bg.jpg') no-repeat center top;
+    position: absolute;
+    padding-top: 100px;
+    min-height: 1050px;
+}
+
+.instal-bg-inner {
+    background: none;
+}
+*/
+.installer-block-wrap {
+    padding-top: 142px;
+    padding-bottom: 0px;
+}
+.inst-left-side-img-table {
+    height: 0px;
+}
+.inst-left-side-img-table {
+    margin-bottom: 10px;
+}
+
+.wizard-catalog-form-item input {
+    left: auto;
+    top: auto;
+    position: relative;;
+}
+.wizard-catalog-form-item p {
+    font-size: 14px;
+}
