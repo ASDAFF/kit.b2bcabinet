@@ -1,0 +1,6 @@
+#global_menu_kit .adm-main-menu-item-icon{
+    background: url("icons/kit/icon.png") no-repeat 50% 55%;
+}
+.kit_b2bcabinet_menu_icon{
+    background: url("icons/kit.b2bcabinet/ico-b2bcabinet.png") no-repeat 50% -35%;
+}

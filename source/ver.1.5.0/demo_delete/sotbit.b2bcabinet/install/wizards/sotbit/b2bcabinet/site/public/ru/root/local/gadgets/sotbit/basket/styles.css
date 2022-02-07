@@ -1,0 +1,181 @@
+.sotbit-cabinet-gadget-basket .gdparent {
+	border: 1px solid #dadada;
+	position: relative;
+	background-color: #052640;
+}
+.sotbit-cabinet-gadget-basket .gdheader {
+	background-color: transparent;
+	padding: 10px 10px 10px 15px;
+	margin: 1px;
+	color: #ffffff;
+	font-family: ProximaNova, Calibri;
+	font-size: 15px;
+	font-weight: normal;
+}
+.sotbit-cabinet-gadget-basket .gdcontent {
+	padding: 10px 15px;
+	zoom: 1;
+	color: #ffffff;
+	font-size: 14px;
+	font-family: ProximaNova, Calibri;
+}
+.sotbit-cabinet-gadget-basket .gdhtmlareachlink a {
+	color: #ffffff;
+	font-size: 15px;
+	font-family: ProximaNova, Calibri;
+	text-decoration: none;
+	padding-bottom: 1px;
+	border-bottom: 1px dotted #ffffff;
+	line-height: 30px;
+}
+.sotbit-cabinet-gadget-basket .gdsettrow {
+	margin: 4px 15px 4px 12px;
+	color: #ffffff;
+	font-size: 15px;
+	font-family: ProximaNova, Calibri;
+}
+.sotbit-cabinet-gadget-basket .gdsettrow input[type='text'] {
+	color: #052640;
+	font-size: 15px;
+	font-family: ProximaNova, Calibri;
+	width: 100%;
+}
+.sotbit-cabinet-gadget-basket .gdsettrow input[type='text']:focus,
+.sotbit-cabinet-gadget-basket .gdsettrow input[type='text']:active {
+	outline: auto 5px;
+}
+.sotbit-cabinet-gadget-basket .gdsettrow input[type='button'] {
+	color: #052640;
+	font-size: 15px;
+	font-family: ProximaNova, Calibri;
+	font-weight: normal;
+	background: white;
+	border: none;
+}
+.sotbit-cabinet-gadget-basket a.gdremove {
+	background-position: -42px 0;
+	border: 1px solid #28445a;
+	border-radius: 50%;
+	background-color: #28445a;
+}
+.sotbit-cabinet-gadget-basket a.gdremove:hover {
+	border: 1px solid #ffffff;
+	border-radius: 50%;
+}
+.sotbit-cabinet-gadget-basket a.gdhide {
+	background-position: -22px 0;
+	border: 1px solid #28445a;
+	border-radius: 50%;
+	background-color: #28445a;
+}
+.sotbit-cabinet-gadget-basket a.gdhide:hover {
+	border: 1px solid #ffffff;
+	border-radius: 50%;
+}
+.sotbit-cabinet-gadget-basket a.gdsettings {
+	background-position: -3px 0;
+	border: 1px solid #28445a;
+	border-radius: 50%;
+	background-color: #28445a;
+}
+.sotbit-cabinet-gadget-basket a.gdsettings:hover {
+	border: 1px solid #ffffff;
+	border-radius: 50%;
+}
+.sotbit-cabinet-gadget-basket a.gdremove,
+.sotbit-cabinet-gadget-basket a.gdsettings,
+.sotbit-cabinet-gadget-basket a.gdhide,
+.sotbit-cabinet-gadget-basket a.gdshow,
+.sotbit-cabinet-gadget-basket a.gdshow:hover,
+.sotbit-cabinet-gadget-basket a.gdremove:hover,
+.sotbit-cabinet-gadget-basket a.gdsettings:hover,
+.sotbit-cabinet-gadget-basket a.gdhide:hover {
+	float: right;
+	height: 19px;
+	width: 19px;
+	margin-left: 3px;
+	margin-top: 0;
+	overflow: hidden;
+	position: relative;
+	background-image: url(img/sw_buttons-w.png);
+}
+.sotbit-cabinet-gadget-basket .gdoptions {
+	padding: 4px;
+	background-color: transparent;
+}
+.sotbit-cabinet-gadget-basket .gdsetcartinfo-img {
+	display: flex;
+	flex-direction: row;
+	margin: 13px 0 5px 0;
+}
+.sotbit-cabinet-gadget-basket .gdsetcartinfo-img .block-cart-img {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 5px;
+	width: 45px;
+	height: 45px;
+}
+.sotbit-cabinet-gadget-basket .gdsetcartinfo span:nth-child(0n + 2) {
+	color: #9ca4b1;
+}
+
+
+
+.sotbit_cabinet .sotbit-cabinet-gadget-basket a.gdsettings:hover,
+.sotbit_cabinet .sotbit-cabinet-gadget-basket a.gdhide:hover,
+.sotbit_cabinet .sotbit-cabinet-gadget-basket a.gdremove:hover {
+	border: 1px solid #28445a;
+}
+.sotbit_cabinet .sotbit-cabinet-gadget-basket .gdsetcartinfo-img {
+	flex-wrap: wrap;
+}
+.sotbit_cabinet .sotbit-cabinet-gadget-basket .gdsetcartinfo-img .block-cart-img {
+	width: auto;
+}
+.sotbit_cabinet .sotbit-cabinet-gadget-basket a.gdsettings:hover,
+.sotbit_cabinet .sotbit-cabinet-gadget-basket a.gdhide:hover,
+.sotbit_cabinet .sotbit-cabinet-gadget-basket a.gdremove:hover {
+	border: 1px solid #28445a;
+}
+.sotbit_cabinet .sotbit-cabinet-gadget-basket a.gdsettings,
+.sotbit_cabinet .sotbit-cabinet-gadget-basket a.gdhide,
+.sotbit_cabinet .sotbit-cabinet-gadget-basket a.gdremove {
+	border: 1px solid #28445a;
+}
+.sotbit_cabinet .sotbit-cabinet-gadget-basket .gdsettrow input[type='button'] {
+	color: #052640;
+	font-size: 15px;
+	font-family: ProximaNova;
+	font-weight: normal;
+	background: white;
+	border: none;
+	padding: 1px 6px;
+}
+.sotbit_cabinet .sotbit-cabinet-gadget-basket a.gdsettings,
+.sotbit_cabinet .sotbit-cabinet-gadget-basket a.gdhide,
+.sotbit_cabinet .sotbit-cabinet-gadget-basket a.gdremove,
+.sotbit_cabinet .sotbit-cabinet-gadget-basket a.gdsettings:hover,
+.sotbit_cabinet .sotbit-cabinet-gadget-basket a.gdhide:hover,
+.sotbit_cabinet .sotbit-cabinet-gadget-basket a.gdremove:hover {
+	border: 1px solid #052640;
+}
+.sotbit_cabinet .sotbit-cabinet-gadget-basket a.gdsettings {
+	display: none;
+}
+.sotbit-cabinet-gadget-basket a.gdsettings {
+	display: none!important;
+}
+.sotbit-cabinet-gadget-basket .gdsetcartinfo-img .block-cart-img {
+	width: 45px!important;
+	background-position: top center;
+}
+.sotbit-cabinet-gadget-basket .gdsetcartinfo-img {
+	flex-wrap: wrap!important;
+}
+.sotbit-cabinet-gadget-basket .gdsetcartinfo-img {
+	display: flex!important;
+	flex-direction: row!important;
+	margin: 13px 0 5px 0!important;
+}

@@ -1,0 +1,6 @@
+<?
+$MESS ['GD_KIT_CABINET_ORDER_ORDER'] = "Заказ №";
+$MESS ['GD_KIT_CABINET_ORDER_FROM'] = "от";
+$MESS ['GD_KIT_CABINET_ORDER_SUM'] = "Сумма";
+$MESS ['GD_KIT_CABINET_ORDER_HISTORY'] = "История заказов";
+?>

@@ -1,0 +1,143 @@
+.sotbit-cabinet-gadget-profile .gdparent {
+	border: 1px solid #dadada;
+	position: relative;
+	background-color: #ffffff;
+}
+.sotbit-cabinet-gadget-profile .gdcontent {
+	padding: 10px;
+	zoom: 1;
+	color: #9ca4b1;
+	font-size: 14px;
+	font-family: ProximaNova, Calibri;
+}
+.sotbit-cabinet-gadget-profile .b2b-gadget-profile__link a {
+	color: #6f727c;
+	font-size: 15px;
+	font-family: ProximaNova, Calibri;
+	text-decoration: none;
+	padding-bottom: 1px;
+	border-bottom: 1px dotted #6f727c;
+	line-height: 15px;
+	margin: 15px 0 15px 0;
+	display: inline-block;
+}
+.sotbit-cabinet-gadget-profile .gdsettrow {
+	margin: 4px 15px 4px 12px;
+	color: #6f727c;
+	font-size: 15px;
+	font-family: ProximaNova, Calibri;
+}
+.sotbit-cabinet-gadget-profile .gdsettrow input[type='text'] {
+	color: #6f727c;
+	font-size: 15px;
+	font-family: ProximaNova, Calibri;
+	width: 100%;
+}
+.sotbit-cabinet-gadget-profile .gdsettrow input[type='text']:focus,
+.sotbit-cabinet-gadget-profile .gdsettrow input[type='text']:active {
+	outline: auto 5px;
+}
+.sotbit-cabinet-gadget-profile .gdsettrow input[type='button'] {
+	color: #6f727c;
+	font-size: 15px;
+	font-family: ProximaNova, Calibri;
+	font-weight: normal;
+}
+.sotbit-cabinet-gadget-profile .gdoptions {
+	padding: 4px;
+	background-color: transparent;
+}
+.sotbit-cabinet-gadget-profile .b2b-gadget-profile {
+	display: flex;
+	flex-direction: row;
+}
+.sotbit-cabinet-gadget-profile .img_block_avatar {
+	border-radius: 50px;
+	overflow: hidden;
+	margin: 7px;
+	width:85px;
+	height:85px;
+	background-image: url(img/empty_avatar.png);
+	background-repeat: no-repeat;
+}
+.sotbit-cabinet-gadget-profile .b2b-gadget-profile__prop {
+	display: flex;
+	flex-direction: row;
+	padding: 8px 0 0 0;
+}
+.sotbit-cabinet-gadget-profile .b2b-gadget-profile__title {
+	color: #052640;
+	font-size: 16px;
+	font-family: ProximaNova, Calibri;
+	font-weight: normal;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+.sotbit-cabinet-gadget-profile .b2b-gadget-profile__propName {
+	color: #6c727d;
+	font-size: 14px;
+	font-family: ProximaNova, Calibri;
+}
+.sotbit-cabinet-gadget-profile .b2b-gadget-profile__propValue {
+	color: #000000;
+	font-size: 14px;
+	font-family: ProximaNova, Calibri;
+	padding: 0 0 0 3px;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+.sotbit-cabinet-gadget-profile .b2b-gadget-profile__data {
+	padding: 0 0 0 25px;
+}
+
+
+
+.sotbit_cabinet .sotbit-cabinet-gadget-profile .gdsettrow input[type='button'] {
+	color: #6f727c;
+	font-size: 15px;
+	font-family: ProximaNova, Calibri;
+	font-weight: normal;
+	border: 1px solid #6f727c;
+	background-color: transparent;
+	padding: 1px 6px;
+}
+.sotbit_cabinet .sotbit-cabinet-gadget-profile a.gdsettings {
+	display: none;
+}
+
+
+
+.sotbit-cabinet-gadget-profile a.gdsettings {
+	display: none!important;
+}
+.sotbit-cabinet-gadget-profile .b2b-gadget-profile__prop {
+	display: flex!important;
+	flex-direction: row!important;
+	flex-wrap: wrap!important;
+	padding: 8px 0 0 0!important;
+}
+.sotbit-cabinet-gadget-profile .b2b-gadget-profile__propName {
+	color: #6c727d!important;
+	font-size: 14px!important;
+	font-family: ProximaNova, Calibri!important;
+	padding: 0 3px 0 0!important;
+}
+.sotbit-cabinet-gadget-profile .b2b-gadget-profile__propValue {
+	color: #000000!important;
+	font-size: 14px!important;
+	font-family: ProximaNova, Calibri!important;
+	padding: 0!important;
+}
+.sotbit-cabinet-gadget-profile .b2b-gadget-profile__data {
+	padding: 0 0 0 15px!important;
+}
+.sotbit-cabinet-gadget-profile .b2b-gadget-profile {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.sotbit-cabinet-gadget-profile .b2b-gadget-profile {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}

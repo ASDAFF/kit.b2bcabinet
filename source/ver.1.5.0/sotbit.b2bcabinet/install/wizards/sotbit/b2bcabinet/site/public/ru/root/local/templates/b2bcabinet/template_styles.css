@@ -1,0 +1,137 @@
+/*.wrap-popup-window {*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    min-height: 100%;*/
+/*    z-index: 1000;*/
+/*    overflow: hidden;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*}*/
+
+/*.wrap-popup-window .modal-popup-bg {*/
+/*    background-color: #000000;*/
+/*    width: 100%;*/
+/*    min-height: 100%;*/
+/*    height: 100%;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    opacity: 0.5;*/
+/*}*/
+
+/*.popup-window.popup-window-content-white.popup-window-with-titlebar {*/
+/*    z-index: 1001 !important;*/
+/*}*/
+
+/*.popup-window-overlay {*/
+/*    z-index: 1000 !important;*/
+/*}*/
+
+/*.wrap-popup-window .popup-window {*/
+/*    position: absolute;*/
+/*    z-index: 11000;*/
+/*    max-height: 97%;*/
+/*    max-width: 95%;*/
+/*}*/
+
+/*.popup-window {*/
+/*    max-width: 95%;*/
+/*}*/
+
+/*#bx-catalog-subscribe-form-notify {*/
+/*    margin: 0 0 15px 0;*/
+/*    padding: 0;*/
+/*    font-size: 12px;*/
+/*}*/
+
+/*.modal-block .popup-close {*/
+/*    height: 28px;*/
+/*    width: 28px;*/
+/*    display: block;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    right: 0;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.popup-close {*/
+/*    height: 14px;*/
+/*    width: 14px;*/
+/*    display: block;*/
+/*    position: absolute;*/
+/*    top: 23px;*/
+/*    right: 30px;*/
+/*    cursor: pointer;*/
+/*    background-image: url("/local/templates/b2bcabinet/assets/img/icon_close.png");*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*    transition: all 0.2s ease-in-out;*/
+/*    z-index: 150;*/
+/*}*/
+
+/*.popup-window {*/
+/*    padding: 0 !important;*/
+/*    margin: 0;*/
+/*}*/
+
+/*.popup-window .popup-window-content {*/
+/*    background: none;*/
+/*}*/
+
+/*.popup-window .popup-window-close-icon {*/
+/*    width: 14px;*/
+/*    height: 14px;*/
+/*    display: block;*/
+/*    position: absolute;*/
+/*    top: 23px;*/
+/*    right: 30px;*/
+/*    cursor: pointer;*/
+/*    background-image: url(/local/templates/b2bcabinet/assets/img/icon_close.png);*/
+/*    background-size: cover;*/
+/*    background-repeat: no-repeat;*/
+/*    -webkit-transition: all 0.2s ease-in-out;*/
+/*    transition: all 0.2s ease-in-out;*/
+/*    z-index: 10000;*/
+/*}*/
+
+/*.popup-window .popup-window-close-icon:after {*/
+/*    display: none;*/
+/*}*/
+
+/*.popup-window .popup-window-close-icon:hover {*/
+/*    background-image: url(/local/templates/b2bcabinet/assets/img/icon_close_hover.png);*/
+/*    background-size: cover;*/
+/*    background-repeat: no-repeat;*/
+/*    opacity: 1;*/
+/*}*/
+
+/*.popup-close:hover {*/
+/*    background-image: url("/local/templates/b2bcabinet/assets/img/icon_close_hover.png");*/
+/*    background-size: cover;*/
+/*    background-repeat: no-repeat;*/
+/*}*/
+
+/*.sotbit_order_phone__block .error {*/
+/*    border: 1px solid red !important;*/
+/*}*/
+
+/*.popup-window .popup-error-message {*/
+/*    padding: 0;*/
+/*    margin: 0 30px;*/
+/*}*/
+
+/*.popup-window .popup-error-message p {*/
+/*    padding: 0;*/
+/*}*/
+
+/*.confidential-field .error {*/
+/*    border-bottom: 1px solid red;*/
+/*}*/
+
+/*.wrap-popup-window .popup-content {*/
+/*    display: block;*/
+/*    width: 100%;*/
+/*}*/

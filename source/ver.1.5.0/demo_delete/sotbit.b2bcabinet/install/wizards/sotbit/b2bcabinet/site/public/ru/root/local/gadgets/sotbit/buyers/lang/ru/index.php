@@ -1,0 +1,3 @@
+<?
+$MESS['GD_SOTBIT_CABINET_BUYERS_EDIT'] = 'Изменить';
+$MESS['GD_SOTBIT_CABINET_BUYERS_SAVE'] = 'Сохранить';

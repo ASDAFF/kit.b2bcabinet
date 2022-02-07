@@ -1,0 +1,210 @@
+.sotbit-cabinet-gadget-buyers .gdparent {
+	border: 1px solid #dadada;
+	position: relative;
+	background-color: white;
+}
+.sotbit-cabinet-gadget-buyers .gdheader {
+	background-color: transparent;
+	padding: 10px 10px 10px 15px;
+	margin: 1px;
+	color: #000;
+	font-family: ProximaNova, Calibri;
+	font-size: 15px;
+	font-weight: normal;
+}
+.sotbit-cabinet-gadget-buyers .gdcontent {
+	padding: 0 15px;
+	zoom: 1;
+	color: #303030;
+	font-size: 16px;
+	font-weight: normal;
+	font-family: ProximaNova, Calibri;
+}
+.sotbit-cabinet-gadget-buyers .gdhtmlareachlink a {
+	color: #6f727c;
+	font-size: 15px;
+	font-family: ProximaNova, Calibri;
+	text-decoration: none;
+	padding-bottom: 1px;
+	border-bottom: 1px dotted #6f727c;
+	line-height: 30px;
+}
+.sotbit-cabinet-gadget-buyers .gdsettrow {
+	margin: 4px 15px 4px 12px;
+	color: #6f727c;
+	font-size: 15px;
+	font-family: ProximaNova, Calibri;
+}
+.sotbit-cabinet-gadget-buyers .gdsettrow input[type='text'] {
+	color: #052640;
+	font-size: 15px;
+	font-family: ProximaNova, Calibri;
+	width: 100%;
+}
+.sotbit-cabinet-gadget-buyers .gdsettrow input[type='text']:focus,
+.sotbit-cabinet-gadget-buyers .gdsettrow input[type='text']:active {
+	outline: auto 5px;
+}
+.sotbit-cabinet-gadget-buyers .gdsettrow input[type='button'] {
+	margin: 7px 0px 7px 0px;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	border-bottom: 1px dotted #6f727c;
+	padding: 0 0 1px 0;
+	color: #6c727d;
+}
+.sotbit-cabinet-gadget-buyers a.gdremove {
+	background-position: -42px 0;
+	border: 1px solid #f8f8f8;
+	border-radius: 50%;
+	background-color: #eeeeee;
+}
+.sotbit-cabinet-gadget-buyers a.gdremove:hover {
+	border: 1px solid #6f7580;
+	border-radius: 50%;
+}
+.sotbit-cabinet-gadget-buyers a.gdhide {
+	background-position: -22px 0;
+	border: 1px solid #f8f8f8;
+	border-radius: 50%;
+	background-color: #eeeeee;
+}
+.sotbit-cabinet-gadget-buyers a.gdhide:hover {
+	border: 1px solid #6f7580;
+	border-radius: 50%;
+}
+.sotbit-cabinet-gadget-buyers a.gdsettings {
+	background-position: -3px 0;
+	border: 1px solid #f8f8f8;
+	border-radius: 50%;
+	background-color: #eeeeee;
+}
+.sotbit-cabinet-gadget-buyers a.gdsettings:hover {
+	border: 1px solid #6f7580;
+	border-radius: 50%;
+}
+.sotbit-cabinet-gadget-buyers a.gdremove,
+.sotbit-cabinet-gadget-buyers a.gdsettings,
+.sotbit-cabinet-gadget-buyers a.gdhide,
+.sotbit-cabinet-gadget-buyers a.gdshow,
+.sotbit-cabinet-gadget-buyers a.gdshow:hover,
+.sotbit-cabinet-gadget-buyers a.gdremove:hover,
+.sotbit-cabinet-gadget-buyers a.gdsettings:hover,
+.sotbit-cabinet-gadget-buyers a.gdhide:hover {
+	float: right;
+	height: 19px;
+	width: 19px;
+	margin-left: 3px;
+	margin-top: 0;
+	overflow: hidden;
+	position: relative;
+	background-image: url(img/sw_buttons.png);
+}
+.sotbit-cabinet-gadget-buyers a.gdhtmlareachlink {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	border-bottom: 1px dotted #6f727c;
+	padding: 0 0 1px 0;
+	text-decoration: none;
+	color: #6c727d;
+	display: inline-block;
+	line-height: 15px;
+	font-family: ProximaNova, Calibri;
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+.sotbit-cabinet-gadget-buyers .gdparent > a:first-of-type {
+	margin: 15px 0 15px 15px;
+	display: inline-block;
+}
+.sotbit-cabinet-gadget-buyers .edge-block {
+	width: calc(100% - 30px);
+	height: 1px;
+	background-color: #dadada;
+	margin: 0 15px;
+}
+.sotbit-cabinet-gadget-buyers .edge-block-inner {
+	width: 100%;
+	height: 1px;
+	background-color: #dadada;
+	margin: 0;
+}
+.sotbit-cabinet-gadget-buyers .personal-container-links {
+	margin: 0;
+	border: none;
+	padding: 0;
+}
+.sotbit-cabinet-gadget-buyers .personal-container-links-edit {
+	-webkit-appearance: none;
+	padding: 10px 0px;
+	color: #303030;
+	font-family: ProximaNova, Calibri;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.sotbit-cabinet-gadget-buyers .personal-container-links-edit .personal-status-title{
+	padding-right:40px;
+	position:relative;
+}
+
+
+.sotbit-cabinet-gadget-buyers a .personal-status-title {
+	background: #fff url(img/ic_key-r-b.png) no-repeat;
+	background-size: 15px;
+	background-position: right 0px center;
+	-webkit-appearance: none;
+	padding: 10px 0px;
+	color: #303030;
+	font-family: ProximaNova, Calibri;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+
+.sotbit-cabinet-gadget-buyers .personal-status-title-link {
+	text-decoration: none;
+}
+
+
+.sotbit_cabinet .sotbit-cabinet-gadget-buyers a.gdsettings {
+	display: none;
+}
+.sotbit_cabinet .sotbit-cabinet-gadget-buyers .gdcontent > a {
+	margin-bottom: 15px;
+	display: inline-block;
+	color: #6f727c;
+	font-size: 15px;
+	font-family: ProximaNova, Calibri;
+	text-decoration: none;
+	padding-bottom: 1px;
+	border-bottom: 1px dotted #6f727c;
+	line-height: 15px;
+}
+.sotbit_cabinet .sotbit-cabinet-gadget-buyers a.gdhtmlareachlink {
+	margin-top: 15px;
+}
+.sotbit-cabinet-gadget-buyers a.gdsettings {
+	display: none!important;
+}
+.sotbit-cabinet-gadget-buyers .delete
+{
+	width:13px;
+	height:13px;
+	background:url(img/cross.png) no-repeat;
+	position:absolute;
+	right:0;
+	cursor:pointer;
+	top:3px;
+}
+.sotbit-cabinet-gadget-buyers .personal-container-links-edit .personal-status-title-link
+{
+	width:13px;
+	height:13px;
+	background:url(img/edit.png) no-repeat;
+	position:absolute;
+	right:20px;
+	top:3px;
+}
